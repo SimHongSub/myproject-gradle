@@ -7,6 +7,6 @@
 	<title>myproject</title>
 </head>
 <body>
-	<p>Hello, this is tutorial</p>
+	<p>${content}</p>
 </body>
 </html>
