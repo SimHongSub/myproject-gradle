@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE HTML>
 <html>
@@ -7,10 +8,10 @@
 	<title>myproject</title>
 	
 	<!-- Bootstrap core CSS -->
-  	<link href="/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="<c:url value='/resources/vendor/bootstrap/css/bootstrap.min.css' />" rel="stylesheet">
 
   	<!-- Custom styles for this template -->
-  	<link href="/resources/css/blog-home.css" rel="stylesheet">
+  	<link href="resources/css/blog-home.css" rel="stylesheet">
 </head>
 <body>
 
@@ -184,8 +185,8 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="/resources/vendor/jquery/jquery.min.js"></script>
-  <script src="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="resources/vendor/jquery/jquery.min.js"></script>
+  <script src="resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
