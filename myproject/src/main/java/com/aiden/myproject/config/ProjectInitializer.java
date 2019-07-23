@@ -1,4 +1,4 @@
-package com.aiden.myproject;
+package com.aiden.myproject.config;
 
 import javax.servlet.Filter;
 import javax.servlet.ServletContext;
@@ -14,7 +14,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 import org.w3c.dom.views.AbstractView;
 
-import com.aiden.myproject.config.ProjectConfig;
+//import com.aiden.myproject.config.ProjectConfig;
 
 /*---- ¼³Á¤ 1 ----*/
 /*public class ProjectInitializer implements WebApplicationInitializer {
