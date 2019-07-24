@@ -27,4 +27,12 @@ public class MainController {
 		
 		return "main";
 	}
+	
+	@RequestMapping(value="/postDetail.do", method = RequestMethod.GET)
+	public String postDetail(Locale locale, Model model){
+		
+		model.addAttribute("content", "Hello, myproject gradle");
+		
+		return "postDetail";
+	}
 }
